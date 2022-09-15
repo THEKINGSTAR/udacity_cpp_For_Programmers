@@ -1,0 +1,31 @@
+/*The example for using cin from the video.
+**There is an error in the video. The correct
+**program is shown below.
+*/
+
+#include<iostream>
+#include<string>
+/* 
+int main()
+{
+    std::string userName; 
+    std::cout<<"Tell me your nickname?: ";
+    std::getline(std::cin, userName);
+    std::cout<<"Hello "<<userName<<"\n";
+    return 0;
+} */
+
+using namespace std;
+
+
+int main()
+{
+
+    string userName;
+    cout<<"Please enter your name :"<<endl;
+    getline(cin,userName);
+
+    cout<<userName<<endl;
+
+    return 0;
+}
